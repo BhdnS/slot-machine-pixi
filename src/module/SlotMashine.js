@@ -11,6 +11,18 @@ import {
   TextStyle,
   Texture,
 } from 'pixi.js'
+import image0 from '../../public/M00_000.jpg'
+import image1 from '../../public/M01_000.jpg'
+import image2 from '../../public/M03_000.jpg'
+import image3 from '../../public/M04_000.jpg'
+import image4 from '../../public/M05_000.jpg'
+import image5 from '../../public/M06_000.jpg'
+import image6 from '../../public/M07_000.jpg'
+import image7 from '../../public/M08_000.jpg'
+import image8 from '../../public/M09_000.jpg'
+import image9 from '../../public/M10_000.jpg'
+import image10 from '../../public/M11_000.jpg'
+import image11 from '../../public/M12_000.jpg'
 
 export class SlotMachine {
   constructor() {
@@ -27,32 +39,32 @@ export class SlotMachine {
     await this.app.init({ background: '#1099bb', resizeTo: window })
     document.body.appendChild(this.app.canvas)
     await Assets.load([
-      './images/M00_000.jpg',
-      './images/M01_000.jpg',
-      './images/M03_000.jpg',
-      './images/M04_000.jpg',
-      './images/M05_000.jpg',
-      './images/M06_000.jpg',
-      './images/M07_000.jpg',
-      './images/M08_000.jpg',
-      './images/M09_000.jpg',
-      './images/M10_000.jpg',
-      './images/M11_000.jpg',
-      './images/M12_000.jpg',
+      image0,
+      image1,
+      image2,
+      image3,
+      image4,
+      image5,
+      image6,
+      image7,
+      image8,
+      image9,
+      image10,
+      image11,
     ])
     this.slotTextures = [
-      Texture.from('./images/M00_000.jpg'),
-      Texture.from('./images/M01_000.jpg'),
-      Texture.from('./images/M03_000.jpg'),
-      Texture.from('./images/M04_000.jpg'),
-      Texture.from('./images/M05_000.jpg'),
-      Texture.from('./images/M06_000.jpg'),
-      Texture.from('./images/M07_000.jpg'),
-      Texture.from('./images/M08_000.jpg'),
-      Texture.from('./images/M09_000.jpg'),
-      Texture.from('./images/M10_000.jpg'),
-      Texture.from('./images/M11_000.jpg'),
-      Texture.from('./images/M12_000.jpg'),
+      Texture.from(image0),
+      Texture.from(image1),
+      Texture.from(image2),
+      Texture.from(image3),
+      Texture.from(image4),
+      Texture.from(image5),
+      Texture.from(image6),
+      Texture.from(image7),
+      Texture.from(image8),
+      Texture.from(image9),
+      Texture.from(image10),
+      Texture.from(image11),
     ]
     this.createReels()
     this.createGraphics()
