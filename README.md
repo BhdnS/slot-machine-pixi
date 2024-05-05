@@ -1,5 +1,4 @@
-# Test Task
-
+# [Slot Machine Pixi](https://bhdns.github.io/slot-machine-pixi/dist/index.html)
 This repository contains the solution to the test task, including the source code and instructions on how to run it.
 
 ## Instructions
